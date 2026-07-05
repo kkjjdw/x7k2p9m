@@ -1,25 +1,35 @@
 {
-  "spider": "",
-  "sites": [],
+  "spider": "https://raw.githubusercontent.com/FongMi/Release/main/apk/release/spider.jar",
+  "sites": [
+    {
+      "key": "huya_m3u8",
+      "name": "🐯 虎牙资源 (M3U8直连)",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "huya_yun",
+      "name": "☁️ 虎牙资源 (云播/需解析)",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hyyun/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playUrl": "https://huyajx.com/play/?url="
+    }
+  ],
   "lives": [
-    {"name": "Jack", "type": 0, "url": "https://php.946985.filegear-sg.me/jackTV.m3u"},
-    {"name": "Kulao", "type": 0, "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"},
-    {"name": "Gay", "type": 0, "url": "https://garyshare.sharewithyou.dpdns.org/garyshare_freedom.m3u"},
-    {"name": "Shijie", "type": 0, "url": "http://82.156.243.185:33389/fwc.m3u"},
-    {"name": "China", "type": 0, "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"},
-    {"name": "YueChanChina", "type": 0, "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u"},
-    {"name": "YanGHK", "type": 0, "url": "https://iptv.yang-1989.xyz/playlist.m3u"},
-    {"name": "JuliHKCHINA", "type": 0, "url": "https://cdn.qd.je/live.m3u"},
-    {"name": "LG US", "type": 0, "url": "https://www.apsattv.com/uslg.m3u"},
-    {"name": "LG UK", "type": 0, "url": "https://www.apsattv.com/gblg.m3u"},
-    {"name": "LG CA", "type": 0, "url": "https://www.apsattv.com/calg.m3u"},
-    {"name": "LG FR", "type": 0, "url": "https://www.apsattv.com/frlg.m3u"},
-    {"name": "LG DE", "type": 0, "url": "https://www.apsattv.com/delg.m3u"},
     {"name": "Samsung TV Plus", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/samsungtvplus_all.m3u"},
-    {"name": "Roku", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u"},
-    {"name": "Xumo", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u"},
+    {"name": "Pluto TV", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/plutotv_all.m3u"},
+    {"name": "Roku Channels", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u"},
+    {"name": "Xumo TV", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u"},
+    {"name": "LG US", "type": 0, "url": "https://www.apsattv.com/uslg.m3u"},
     {"name": "Local NOW", "type": 0, "url": "https://www.apsattv.com/localnow.m3u"},
-    {"name": "Plex", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/plex_all.m3u"},
-    {"name": "Pluto TV", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/plutotv_all.m3u"}
+    {"name": "Plex TV", "type": 0, "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/plex_all.m3u"},
+    {"name": "YueChan 中文海外", "type": 0, "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u"},
+    {"name": "YanG HK/TW", "type": 0, "url": "https://iptv.yang-1989.xyz/playlist.m3u"}
   ]
 }
